@@ -1,9 +1,9 @@
 import sys
 """
-<<0, label, word>, cnt>   表示训练集中标签为label的title中单词xi出现了cnt次（不去重） 
-<<1, label>, cnt>   表示训练集中标签为label的title总数
-
-reducer 中使用 Hash字典来统计每一个key 的出现总数
+输入：
+<<label, Nei, word>, 1>
+输出：
+<<label>, <0, Nei, word, numofword>>
 """
 Hash = dict()
 for row in sys.stdin:
@@ -13,6 +13,8 @@ for row in sys.stdin:
     else:
         Hash[key] += int(value)
 
-for key in Hash:
-    key_value = key + "\t\t" + str(Hash[key])
-    print(key_value)
+for k,v in Hash.items():
+    k = k.split(' ')
+    key = k[0]
+    value = str(0) + ' ' + k[1] + ' ' + k[2] + ' ' + str(v)
+    print(key + "\t\t" + value)

@@ -1,19 +1,22 @@
 import sys
 """
-<<0, label, word>, cnt>   表示训练集中标签为label的title中单词xi出现了cnt次（不去重） 
-<<1, label>, cnt>   表示训练集中标签为label的title总数
+输入：
+label  title
+输出：
+<<label, Nei, word>, 1>
 """
+Nei = dict()
+titles = []
 for row in sys.stdin:
+    titles.append(row)
+    label, title = row.split('\t\t')
+    if label not in Nei:
+        Nei[label] = 0
+    Nei[label] += 1
+
+for row in titles:
     label, title = row.split('\t\t')
     title = title.split()
     for word in title:
-        # <<0, label, word>, cnt> 
-        key = str(0) + ' ' + label + ' ' + word
-        value = str(1)
-        key_value = key + "\t\t" + value
+        key_value = "{}\t\t{}".format(label + ' ' + str(Nei[label]) + ' ' + word, str(1))
         print(key_value)
-    # <<1, label>, cnt>
-    key = str(1) + ' ' + label
-    value = str(1)
-    key_value = key + "\t\t" + value
-    print(key_value)

@@ -74,8 +74,6 @@ def test(inputfile, model):
             if len(rank5_label) == 1:
                 if rank5_label[0] == ei:
                     r1_correct += 1
-            if len(rank5_label) == 5:
-                break
         for x in rank5_label:
             if x == ei:
                 r5_correct += 1
