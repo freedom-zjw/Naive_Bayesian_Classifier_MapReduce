@@ -1,0 +1,850 @@
+engineering		tests lots of errors printed when running ipc tests
+engineering		reduce files in vscode remote distro
+engineering		engineering improve build perf
+engineering		add caching to ci workflow
+git		stage changes command should be called add
+git		git fixed error when staging in empty repository
+git		git improve support stage selected lines
+git		git enabled
+git		git adopt filesystem provider
+git		source control option stash is not working properly
+git		git decorations lasting far beyond their relevance
+debt		smoke test verifies that go to definition works
+debt		tasks integration test warns that it will be ignored in the future
+debt		web decide what to do with gallerymachineidresource
+debt		clear search bar function doesnt refocus by current definition in the settings editor
+debt		webview reaches into editorpart
+debt		debug call stack commands arguments
+debt		getmultiselectedresources should be removed
+debt		share link detection logic with the terminal and editor
+debt		jsts protocol buffer hangs onto a lot of memory if on big request or response is used
+debt		automated testing show errors
+debt		lazy is a guarantee for slowness
+debt		gitfs support proper etag handling
+debt		tree cleanup hidetwistiesofchildlesselements option
+debt		make sure that no parallelism has been eliminated by the asyncawait effort
+confirmed		cant reach hidden task bar with position top when vscode window maximized
+confirmed		full screen at certain resolutions causes bottom bar to overflow
+confirmed		source control open changes menu item shows twice
+confirmed		firefox crashes when i click on a link in vscode
+confirmed		editor not coloring js comments correct
+confirmed		windows timer resolution always increased to ms while codeexe is running
+integrated-terminal		incorrect keyboard shortcut shown in edit menu
+integrated-terminal		powershell core edxit with unexpeted error
+integrated-terminal		integrated terminal
+integrated-terminal		json limited to  items
+integrated-terminal		bottom of window not rendered
+integrated-terminal		semicolon completion cannot be disabled in html files
+integrated-terminal		not working
+integrated-terminal		terminal not working
+integrated-terminal		autopep formatting doesnt work in  python but work in
+integrated-terminal		using the mouse wheel on terminals with scrollback  will output weird characters
+integrated-terminal		go to definition in node typescript project
+extensions		add a license tab to local extensions
+extensions		custom marketplace url
+extensions		failed to install mspythonpython
+extensions		a way to filter themes and icons from the enabled extensions list
+extensions		cant open workspece in firefoxreality
+extensions		disable the initial telemetry notification
+extensions		protest why is the redhat xml extension shown as the st place in the search result
+extensions		impossible to copy extension description
+extensions		extension host terminated unexpectedly
+extensions		not able to install vs code in macos catalina
+*extension-candidate		option to disable unicode point count in the col section of status bar
+*extension-candidate		integrate errorlens functionality
+*extension-candidate		lua regionscollapsing of string literals
+*extension-candidate		smarty template engine
+*extension-candidate		add function name predefined variable for snippets
+*extension-candidate		support buildin inlinerender inferred types in typescript
+*extension-candidate		markdown relative link updating when files moved
+*extension-candidate		automatically fix smart quotes and replace with regular quotes
+*extension-candidate		request for more advanced refactoring capabilities for typescript
+*extension-candidate		fr make vscodes configuration more amenable to traditional build systems
+*extension-candidate		add command line argument for running a command in an intergrated terminal
+*extension-candidate		use shell command output for command input variables
+*extension-candidate		group or turn off problems by subproject
+*extension-candidate		direct connection to esp via repl
+*extension-candidate		downloadable todo list or project management system
+*duplicate		terminal is not cleared with cls command
+*duplicate		extension publishers and disabled extension titles dont use spaa
+*duplicate		unable to run on mac os catalina
+*duplicate		statusbar height  statusbar content gets cut off
+*duplicate		altf doesnt work toggles the window menus
+*duplicate		report issue feature do not include extension information
+*duplicate		integrated terminal can not support bold character
+*duplicate		user profilesextension groups
+*duplicate		sync improve sync triggers
+*duplicate		vscode of octobere  wont run on osx
+*duplicate		web interface overview is off
+*duplicate		autoclosingbrackets setting prevents jsdoc auto completion
+*duplicate		add searchfilter in debug pane
+*duplicate		scrolling jumps around when scrolling outside of vs code
+*duplicate		cvisual studio code cant be opened because apple cannot check it for malicious software
+*duplicate		add settings option to keep terminal maximized
+*duplicate		linux terminal does not launch when inheritenv is false
+*duplicate		in safari the hamburger menu disppears after use
+*duplicate		mouse map rebind support
+*duplicate		vscode cant create launchjson in vscode folder
+*duplicate		ui
+*duplicate		high contrast issue in  macos
+*duplicate		lag when minimize and maximize vs code
+*duplicate		perf issue when resizing panel next to editor
+*duplicate		rightclick menu behind branch name menu
+*duplicate		wrong slash directions for cpp tasks configure default build task
+*duplicate		wrong positioning of arrows during initial walkthrough of vscode
+*duplicate		terminal text disappears
+*duplicate		enable to change the font family and size of debug panel
+*duplicate		extension details viewport covers status bar when this extension is recommended shown
+*duplicate		fix notorious the content of the file is newer bug by adding an option to force overwrite by default
+*duplicate		killing terminal while running python
+*duplicate		source control git bugs
+*duplicate		save workspace as doesnt automatically add extension
+*duplicate		on macos when vscode is opened from sudo mode the input method cannot be switched to nonenglish
+*duplicate		compact folders shiftf changes focused folder
+*duplicate		find in files crashes when launched in insiders build
+*duplicate		cannot navigate to exact error line while running a python file
+*duplicate		special characters not correctly displayed in integrated terminal
+*duplicate		filesautoguessencoding is wrong with utf chinese
+*duplicate		web folder selector not working as intended on firefox
+*duplicate		show opening bracket line when closing bracket is selected
+*duplicate		release notes  page always go to top position after naviagte back
+*duplicate		unable to search marketplace
+*duplicate		when using a git filter in gitattributes vscode scm shows everything as modified
+*duplicate		replace in files inserts replacement text in wrong location
+*duplicate		file count on problems view title doesnt match filtered problem count
+*duplicate		window resize
+*duplicate		compact menu not appearing
+*duplicate		switching from another window to the vs code will appear blank
+*duplicate		extension viewlet entries use some greyscale aa
+*duplicate		find in files doesnt look in nonworkspace files that havent been opened
+*duplicate		intergrated powershell terminal first line not showing
+*duplicate		tab suffix deleted stays when file is resurrected
+*duplicate		watcher exclude even with with default configs is not respected on workspaces with more than one folders
+*duplicate		word wrap fails on lines with breakpoints in debug mode
+*duplicate		fontaliasing antialiased doesnt work for canvas terminal
+*duplicate		cntrl  shift  e should toggle explorer pane
+*duplicate		restoring from full screen  zen mode crops when vscode was maximised prior
+*duplicate		no preview of markdown within block comments in jsts code
+*duplicate		mediaplaypause
+*duplicate		allow use of codicons in hovers
+*duplicate		icon octioicongitpullrequest in status bar instead of icon
+*duplicate		multiline highlighting disappears on some lines
+*duplicate		path separator missing from task args
+*duplicate		suggest widget misplaced
+*duplicate		stuck at initializing jsts language features
+*duplicate		th and th mouse buttons paste which isnt intended
+*duplicate		vs code flickering and crash
+*duplicate		file moving status
+*duplicate		i cant run vscode
+*duplicate		call hierarchy peek should have an action button to open in the view
+*duplicate		dom renderer doesnt apply min contrast ratio to true color cells
+*duplicate		git repo does not work in folders with special characters like ū
+*duplicate		potential breakpoint indicators appear in wrong place after editing a file
+*duplicate		recent file history does not update version
+*duplicate		webgl renderer characters not positioned correctly
+*duplicate		when the release notes is open double actions are performed on keyboard shortcuts
+*duplicate		abnormal alignment
+*duplicate		vs ide gets blurry
+*duplicate		remote explorer ui ui consistency with debug viewlet
+*duplicate		linux font rendering is blurry in
+*duplicate		default theme is stuck
+*duplicate		have problem with macbook
+*duplicate		window maximizes non properly after exiting from zen mode
+*duplicate		abnormal markdown preview
+*duplicate		please provide a way to find the electron version of vscode from command prompt
+*duplicate		search panel should show one result per line not per occurance
+*duplicate		takes some time to maximize window
+*duplicate		快捷键无法使用
+*duplicate		copy paste doesnt work
+*duplicate		one dark pro theme is darker than usual
+*duplicate		visual studio code cant be opened because apple cannot check it for malicious software
+*duplicate		variable evaluation for task input defaults
+*duplicate		renamed a folder with many files then got an empty folder i have disabled all extensions
+*duplicate		debugger mouseover value showing over comments
+*duplicate		visual studio code cant be opened because apple cannot check it for malicious software
+*duplicate		nano on terminal not showing cursor
+*duplicate		peek call hierarchy context menu not available while peek is open
+*duplicate		active editor theme change
+*duplicate		win电脑中  使用终端问题
+*duplicate		display full text in problems pane
+*duplicate		visual studio code cannot be opened because mac cannot check it  for malicious software
+*duplicate		nothing on right click  renderer
+*duplicate		glitch in editors display
+*duplicate		快捷键无法使用
+*duplicate		problem on maximize window
+*duplicate		js es some feature not supporting
+*duplicate		failed to save dialog with compare option is missing a settings geariconoption
+*duplicate		ctrl  shift  e doesnt work on ubuntu
+*duplicate		package codeelxrpm is not signed
+*duplicate		terminal log displaying not right with emoji
+*duplicate		the terminal process terminated with exit code
+*duplicate		multiple redundant dock items
+*duplicate		renderer of code insider is crashing too often  times in last  hour on my typescript workspace
+*duplicate		find in folder does not correctly fill includes filter when folder name contains
+*duplicate		feedback
+*duplicate		terminal dosent work  of the time after latest update
+*duplicate		low contrast with own theme after update on
+*duplicate		markdown syntax highlighting in jsdoc comments has stopped working
+*duplicate		strange selectioncopy behaviour in debug console
+*duplicate		go to file ctrlp search by keywords where order does not matter
+*duplicate		green check mark becomes black  white
+*duplicate		copy relative path
+*duplicate		vscode shows  breakpoints in same line
+*duplicate		menu bar should not be titlebar should also respect os color customization
+*duplicate		scared compact menu indicator in safari
+*duplicate		vscode buttons when navigated with keyboard dont show tooltips
+*duplicate		wrap in the diff editor
+*duplicate		lock terminal input before startup commands are executed
+*duplicate		rename refactoring demo in interactive playground broken
+*duplicate		web reloads after removing last workspace folder
+*duplicate		wrong indentation when moving multiple lines
+*duplicate		assignee search doesnt find users
+*duplicate		dont hide breakpoint dot in gutter
+*duplicate		exclude files which match gitignore rules
+*duplicate		window min height
+*duplicate		gray screen for  seconds before opening completly
+*duplicate		source control commit doesnt work after v update
+*duplicate		extra characters appearing in integrated terminal with completion
+*duplicate		windows maximize doesnt work
+*duplicate		editor view sometime jumps to first of the file
+*duplicate		buffer deprecation warning when installing a vsix through the command line
+*duplicate		issue reporter on extensions with alternative issue handler
+*duplicate		bug marketplace extension page goes over title bar
+*duplicate		windows bar
+*duplicate		hovers no longer show up above the current line
+*duplicate		open editors with custom fixed size
+*caused-by-extension		we are not getting the no of references above the terraform resource
+*caused-by-extension		unable start debugginglaunch option string provided by the project system invaild шестнадцатеричные значение xcявляется недоступным для атрибута знакомстрока позиция
+*caused-by-extension		issue with powershell terminal in vscode on ubuntu
+*caused-by-extension		error installing intellisense
+*caused-by-extension		copy line updown not working in jupyter notebook
+*caused-by-extension		the limitation of reading compilation database
+*caused-by-extension		shortcut for play button of top right corner  python
+*caused-by-extension		miniconda environment fails to auto activate in terminal
+*caused-by-extension		interactive python kernel stops debugging
+*caused-by-extension		some references or definitions are not found in python code
+*caused-by-extension		q pythonvs code new console python file
+*caused-by-extension		user snippets no longer take precedence
+*caused-by-extension		navigate back and forth while generating maven project using spring initializer
+*caused-by-extension		module winapi unresolved import winapipythonunresolvedimport
+*caused-by-extension		hide cells content in ipython notebook view
+*caused-by-extension		powershell else formatting
+*caused-by-extension		how can i get root in wsl
+*caused-by-extension		vs code window hangs when trying to detatch from net functions
+*caused-by-extension		authorize an org is not wokring
+*caused-by-extension		snippet suggest skips perfect match
+*caused-by-extension		data viewer show shifting columns in dataframe
+*caused-by-extension		cant use python kernel in other conda env when using notebook editor
+*caused-by-extension		vscode should warn on bad tslintjson format
+*caused-by-extension		force outline update button or faster automatic update of outline
+*caused-by-extension		toggle devloper error
+*caused-by-extension		cannot activate the jira and bitbucket official extension because it depends on the git extension which is not loaded would you like to reload the window to load the extension
+*caused-by-extension		debug  gui changes
+*caused-by-extension		the color of this area and the left and right sides are not coordinated please refer to visualstudio for improvement
+*caused-by-extension		vscode freezed
+*caused-by-extension		multiline string formatting not working in hover
+*caused-by-extension		autopep does not obey ignore directive
+*caused-by-extension		jupyter notebook  not formatting code correctly
+*caused-by-extension		problems with debug
+*caused-by-extension		ctrlk ctrld language client is not ready yet
+*caused-by-extension		minikube upgrade available to v currently on v
+*caused-by-extension		cant load global intellicode plugin when using workspace typescript version
+*caused-by-extension		e handling  request launch from adapter
+*caused-by-extension		syntax highlighting for diff in markdown codeblock
+*caused-by-extension		output problem
+*caused-by-extension		output console does not scroll after an error on compilation
+*caused-by-extension		code result different between vscode and intellij idea
+*caused-by-extension		hide full class names in breadcrumbs when you have nested class definitions
+*caused-by-extension		jupyter notebook  cell contents disappear but code is still runnable
+*caused-by-extension		i cant stop vs code from inserting tocplugin wont turn off
+*caused-by-extension		unable to start debugging the value of midebuggerpath is invalid
+*caused-by-extension		rename symbol issue
+*caused-by-extension		python test discovery never finishes when git submodule present
+*caused-by-extension		intellisense not working with jupyter notebook
+*caused-by-extension		cant connect to jupyter notebook only with vs code
+*caused-by-extension		intellicode keeps breaking for external libraries for java development without any build tools
+*caused-by-extension		ctrld and paste behavior
+*caused-by-extension		jupyter notebook support live markdown preview
+*caused-by-extension		debugger fails often while running net core x app
+*caused-by-extension		python execution bug
+*caused-by-extension		ibm blockchain issue
+*caused-by-extension		live share login issue with browser callback
+*caused-by-extension		high cpu and ram consumption
+*caused-by-extension		loose cells in jupyter notebook
+*caused-by-extension		visual bug after resizing interactive python shell
+*caused-by-extension		pythonlanguageserver takes too many memory
+*caused-by-extension		error of syntax highliting when recognizing invert operator in python
+*caused-by-extension		live server takes    minutes to load
+*caused-by-extension		live share terminalwidth  height
+*caused-by-extension		run golangcilint error msgparallel golangcilint is running
+*caused-by-extension		output of scikit learn not correct in jupyter notebook
+*caused-by-extension		make jupyter in vs code more comfortable
+*caused-by-extension		multiprocessing no longer working while debugging it works on terminal though
+*caused-by-extension		erase informartion everytime i save it
+*caused-by-extension		problem saving
+*caused-by-extension		issues opening html in browser
+*caused-by-extension		powershell intellisense forever processing causing f and f keys to not work
+*caused-by-extension		in java programming opens twice times the same source file causing confusion
+*caused-by-extension		set default gdb locaiton in settings
+*caused-by-extension		python venv debugger session timed out
+*caused-by-extension		using software stuck after a period of time
+needs-more-info		command emmetexpandabbreviation not found
+needs-more-info		auto complete doesnt work in jsx
+needs-more-info		an abnormal phenomenon when use vscode with remote path of sambavirtual machine
+needs-more-info		vscode only updates the color of codes when restart the ide
+needs-more-info		workspacefolderbasename invalid variable reference
+needs-more-info		scm status bar contribution missing under some condition
+needs-more-info		bootstrap on vs code
+needs-more-info		a suggestion
+needs-more-info		terminal typing and cursor issue
+needs-more-info		long search time for ridiculously huge workspaces
+needs-more-info		clear output doesnt clear output buffer it just pretends by only clearing the output screen
+needs-more-info		when i save auto go to last line
+needs-more-info		cant do ctrlarrow leftrigth to do whole string selection when the language mode is markdown
+needs-more-info		marketplace returns neterremptyresponse
+needs-more-info		vscode shows any for types that are not any
+needs-more-info		change minimal windows size
+needs-more-info		ubuntu  aptupdate fails with vscode repository
+needs-more-info		vscode draws pixel black line on adjacent monitor when maximized
+needs-more-info		visual code extension mspythonpython incorrectly showing problems in python code
+needs-more-info		folder name is equal to another folder only show one
+needs-more-info		the cursor sometimes disappears in vscode terminal window
+needs-more-info		visual glitches in the last release  on linux mint
+needs-more-info		git stage selected range duplicates lines after extensive usage
+needs-more-info		cant install any of plugins from store its always showing notification on bottomright side failed to install
+needs-more-info		error code
+needs-more-info		not able to install extension with multiple kinds to other location
+needs-more-info		a keyboard shortcut function about copy line down or upper
+needs-more-info		you guys better remove this minimum fixed width it is getting in my progress when working with my projects
+needs-more-info		codehelper is taking  usage
+needs-more-info		settings ux allows user selection
+needs-more-info		git svc show that all files are uncommited in wsl
+needs-more-info		vscode  fails to run in user mode
+needs-more-info		source control is not working properly
+needs-more-info		black does not support the format selection command
+needs-more-info		folders with d in name are being excluded
+needs-more-info		editorfontfamily not working for custom fonts
+needs-more-info		error when starting code from within wsl
+needs-more-info		proxy works partially with extensions marketplace
+needs-more-info		auto save
+needs-more-info		explorer icon disappears
+needs-more-info		clone git repository
+needs-more-info		improve search history
+needs-more-info		multiprocessing not working in vs code computer hangs indefinitely
+needs-more-info		mac os 切换界面工作区不定时出现横向滚动条问题
+needs-more-info		extension host terminated unexpectedly
+needs-more-info		code trembling
+needs-more-info		vscode no longer showing go to definition on right click has returned
+needs-more-info		placeholders get not replaced if the variable is used more than one time
+needs-more-info		theme not working with the latest update on th november
+needs-more-info		html auto rename broken state when deleting tags
+needs-more-info		terminal not showing complete output unless resized
+needs-more-info		start up takes pretty long
+needs-more-info		vs code running slow on my machine
+needs-more-info		cannot open files beginning with  and containing additional  from jump list
+needs-more-info		cannot run vs code to my mac
+needs-more-info		clonar repositorio git
+needs-more-info		too slow to load snippet
+needs-more-info		drag and drop files within vscode editor version   on already opened file is stopped working
+needs-more-info		snippet generates a link
+needs-more-info		script and style tags loses or incorrect autoindent on html file
+needs-more-info		recovery the the former debug console
+needs-more-info		available status not working
+needs-more-info		remote ssh not connecting after latest update
+needs-more-info		offcenter placeholder in extension viewlet
+needs-more-info		error when running scripts using npm script explorer
+needs-more-info		change git branch show compile error
+needs-more-info		terminal not loading  zshrc in the first go
+needs-more-info		cannot type  character in terminal due to allow chords feature
+needs-more-info		move show tabs to view panel
+needs-more-info		debug protocol corruption
+needs-more-info		flickering in full screen or zen mode
+needs-more-info		when i input  in the editerthe windows is freeze
+needs-more-info		unable to verify the first certificate error when issuing https request
+needs-more-info		default font on macos should be sf mono
+needs-more-info		what happened with this
+needs-more-info		terminal
+needs-more-info		revert to
+needs-more-info		ms build is not recognise
+needs-more-info		memory use
+needs-more-info		git asks for credentials twice
+needs-more-info		wait doesnt wait when using with extensiondevelopmentpath
+needs-more-info		sudden memory peak
+needs-more-info		vscode does not load any extensions
+needs-more-info		unable to configure tasks
+needs-more-info		go to definition not working for any language
+needs-more-info		goto definition context menu looks like strange behavior in tsx
+needs-more-info		vscode appears to lose git in scm when saving workspace
+needs-more-info		touchpad srcolling moves cursors instead of scroll bar on some devices
+needs-more-info		git working tree does not work
+needs-more-info		file preview doesnt refresh when run command creates a file
+needs-more-info		unable to start recent versions of vscode
+needs-more-info		support for greek characters when reading a file on a path
+needs-more-info		git version manger
+needs-more-info		wont build
+needs-more-info		cannot debug my extension on this windows user profile anymore
+needs-more-info		snippet shortcuts stopped working
+needs-more-info		php  js  html mixed code coloringhighlighting doesnt work whil in php language mode
+needs-more-info		every time showing extension host terminated unexpectedly
+needs-more-info		when i create a database and i save it in some days it deletes by himself
+needs-more-info		native crash
+needs-more-info		coping files from one window to another deletes the file from the original
+needs-more-info		code randomly swaps out
+needs-more-info		after uninstalling the vscode and installing the new version the old option still exists
+needs-more-info		javascript error main process
+needs-more-info		extreme slowness from tsserverjs and typingsinstallerjs
+needs-more-info		vscode hangs after pressing f key
+needs-more-info		git synchronize changes stays in a loop
+needs-more-info		cant install extension on the server from extension viewlet
+needs-more-info		extension host failing
+needs-more-info		not respond any feature search consoles
+needs-more-info		font becomes more bold
+needs-more-info		the font is bad
+needs-more-info		auto import not working
+needs-more-info		connectionrefusederror errno  connection refused
+needs-more-info		opening vs code does not load bash
+needs-more-info		the last update of vscode doesnt work any more os win
+needs-more-info		tab indentation keeps changing only for typescript files
+needs-more-info		i dont know why  because connection is ok on putty
+needs-more-info		terminal colors are different lighter after upgrading to macos catalina
+needs-more-info		vs code cannot download update
+needs-more-info		terminal turns black
+needs-more-info		associated language
+needs-more-info		will not open chrome when i run in live server
+needs-more-info		launches with a blank window but function works
+needs-more-info		intellisense suggestions  jump to next types of completions
+needs-more-info		sluggish mouse selection  cursor movement when in full screen  zen mode
+needs-more-info		cant change default language for cshtml
+needs-more-info		freeze issue
+needs-more-info		the terminal shell path cmdexe does not exist
+needs-more-info		inline javascript is not enabled is it set in your options
+needs-more-info		code action at file end
+needs-more-info		macos safari undo typing doesnt work
+needs-more-info		extremely slow typescript vscode intellisense
+needs-more-info		cursor jump and scroll when switching between splits  and highlights intervening code
+needs-more-info		cannot access extensions market behind corporate authenticated proxy
+invalid		cant use rsync in wsl
+invalid		sresolve filecuserssomeoneappdatalocalprogramsmicrosoft vs coderesourcesappoutvsworkbenchworkbenchdesktopmainjs
+invalid		cyrillc path problem
+invalid		access violation thrown from ntdll when using msvc c x debugger
+invalid		theme error
+invalid		have single setting to configure sync enablement
+feature-request		process explorer with os scrollbars instead of vscode scrollbars
+feature-request		collapsed explorer nodes only show up after expanding a folder
+feature-request		support git config edition
+feature-request		allow individual status bar messages to clip instead of hide
+feature-request		allow explorer incremental naming to have disabled option for paste
+feature-request		increase available tab area
+feature-request		search editor preview add more finegrained tm scopes
+feature-request		themes should color theme files be minimized
+feature-request		added forcedevicescalefactor to command line args
+feature-request		possibility to add key shortcuts depending of code scope
+feature-request		webgl terminal renderer
+feature-request		scm support file history view
+feature-request		web allow to drop a local file into editor area to open it
+feature-request		offer option not to syntaxhighlight jsdocs example snippet in intellisense
+feature-request		closing empty file with undo history should show a confirmation message
+feature-request		keep selected item when typing line numbers
+feature-request		support synchronising keybindings
+feature-request		allow to close all files of a specific type at once
+feature-request		os specific properties in tasksjson to overwrite build shell doent work
+feature-request		better control over automated maximize on large k screens
+feature-request		allow json edit to support inserting in array at a given index
+feature-request		allow more specific trusted domains rule
+feature-request		make active file unambigious in the explorer
+feature-request		draw custom dropdown picker desktop web
+feature-request		autoreveal highlight filename where it is without always moving it to the middle in explorer
+feature-request		display command name in the status bar after a keybinding
+feature-request		git should be able to automatically track new files
+feature-request		word navigation in quickopen
+feature-request		custom background image
+feature-request		enable file editing lock
+feature-request		feature request reuse a task window without closing it
+feature-request		tunnels view keyboard shortcuts missing
+feature-request		use exponential backoff for failed settings sync requests
+feature-request		bug about finger slide on editor
+feature-request		explorer improve compressed folder actions
+feature-request		trigger suggestion shortcut on mac not working
+feature-request		more actions menu of outline panel uses type in two different ways
+feature-request		proposal outline should show inherited methods from parent class
+feature-request		support multiple values for the gitpath setting
+feature-request		add none option to editorsuggestselection
+feature-request		separate open mode configuration for files and folders
+feature-request		get task definition with completed variables
+feature-request		reference subtasks in multiroot workspaces
+feature-request		macos ctrlv to go to the end of the document
+feature-request		adopt insertreplace range for snippet completions
+feature-request		support to localise snippet description
+feature-request		allow to configure a list of encodingconfidences to use when guessing
+feature-request		highlight primary cursor differently than other cursors
+feature-request		support running npm scripts from a folder in the explorer
+feature-request		suggest keybind open search result below
+feature-request		shiftclick in explorer to highlight filesfolders without preview
+feature-request		flipswap editor groups
+feature-request		git support ignoring comments out of a restored commit template file
+feature-request		make global activity multi activity aware
+feature-request		support parsing recursive dependson in compound task
+feature-request		search editor preview support syntax highlighting
+feature-request		support for forcerendereraccessibility electron argument needed for linux accessibility
+feature-request		allow to dim inactive editors making it easier to focus on the the active editor
+candidate		show control hover is not a good name for the action
+candidate		fix  in release
+candidate		fix gitfs scheme check
+candidate		update overflow ellipsis in panel
+bug		make editorcodeactionsonsave a resource setting
+bug		menubar moves after clicking on safari
+bug		dialog buttons not fully showing web firefox
+bug		extensions search is including non validated extensions
+bug		find all implementations shows even a single result as collapsed
+bug		dialogs are different with electron
+bug		open folder link in search panel does not work
+bug		ui error  cannot resolve workspace folder stays after folder is loaded
+bug		windowondidchangeterminaldimensions should not fire with  when terminals are created
+bug		pressing ctrlw on release notes closes the window
+bug		tunnels view is not multi selection aware
+bug		always happen search input covered by search title after a replacement excuted
+bug		typescript assigns variable kind to constructor
+bug		remote view select box out of style
+bug		semantic tokens feedback on use of word bitmap in api docs
+bug		web download on explorer background
+bug		silent corruption of utencoded files missidentified as utfbom
+bug		sequential tasks not terminated correctly
+bug		open recent window is really tall
+bug		interactive playgrounds suggest widget styled everything as links
+bug		modifying the files to includeexclude inputs changes focus to search input field
+bug		firefox on macos dragndrop to desktop doesnt work
+bug		extension search is broken
+bug		vs code gets into bad state after debugging extension with tasks
+bug		second delete folder operation does not work in insiders
+bug		missing javascript syntax highlight in html
+bug		typescript  javascript language features extension is continuosly failing
+bug		link detection in debugconsole results in fsresolve errors in dev tools
+bug		vs code wont size right on multiple monitors
+bug		endless download save dialogs
+bug		web open folder shows desktopeven if the path is wrong
+bug		find in selection icon is missing
+bug		welcome  printable keyboard cheatsheet does nothing in oss builds
+bug		search editor query is deescaped when refreshing
+bug		commands executed by command links in hovers no longer receive arguments
+bug		scroll off background color looks off in dark themes
+bug		right click shows the wrong context menu in firefox
+bug		explorer multiselect commands no longer work
+bug		explorer cant select all and delete
+bug		links in enum setting values cant be clicked
+bug		git fs needs to emit events when file is gone
+bug		explorer icons show up briefly when resizing down
+bug		web expanded find widget needs more height firefox
+bug		tree compressed tree doesnt preserve traits properly
+bug		html auto rename doesnt exit when move cursor the end of line
+bug		new folder navigation makes it impossible to delete empty file
+bug		outline view for markdown symbols shows key icon
+bug		do not include git files in search results
+bug		drag  drop overwrites file without asking
+bug		unc server missing from path on new files
+bug		failed to run on chrome browser with yarn web
+bug		cannot edit search string effectively on windows with up arrow
+bug		warning icon is not shown for extensions in remote window
+bug		inconsistent icon theme colors
+bug		webgl renderer selection not rendered in background
+bug		c syntax highlighting broken by line break before array square bracket
+bug		snippet with choices not working
+bug		quick pick doesnt use spaa
+bug		cannot read property searchinput of undefined
+bug		web custom menu is broken
+bug		the additional views overflow action only shows up on hover
+bug		code insiders git commit error
+bug		web double tap doesnt pin editor or create new files
+bug		git repo on did change event not fired on first selection change in multiroot workspace
+bug		web folder downloads fail
+bug		button spins when publishing a new branch in the git side bar
+bug		diff shows error for untracked image
+bug		source control checkout menu does not close even after close repository
+bug		preferences smoke tests are broken
+bug		ts intellisense is not putting exact match at top
+bug		screen cheese in remote picker
+bug		first sync of extensions seems to save  followed shortly after by the actual manifest
+bug		add new settings to settingslayoutts
+bug		focus switches back to editor from terminal when format document
+bug		json file schema loaded on client instead of server
+bug		http link used for emmet cheatsheet
+bug		smoke test verifies that go to definition works fails
+bug		markdown preview editor shows icon even though i disabled file icons
+bug		themes icontheme doesnt work with spaces in names
+bug		webgl renderer isnt hot swappable
+bug		open files that are in fileswatcherexclude no longer update when contents change on disk
+bug		image preview can no longer scroll with mouse wheel
+bug		settings fix subpixel aa issues
+bug		nonfluent english in error message
+bug		do not use commit characters when suggestions no longer match
+bug		follow link tooltip immediately hides on a multline link
+bug		updating language specific setting fails with exception
+bug		electron  out of source debugging  source maps not discovered
+bug		tree compression doesnt work when tree nodes are hidden
+bug		debug smoke tests are broken
+bug		oss extension pages not loading in safari
+bug		launchjson schema says cwd is not allowed
+bug		mac os touch bar
+bug		tabs no longer show dirty indicator with workbencheditorhighlightmodifiedtabs true
+bug		outline cap message doesnt make sense
+bug		workspace files are being saved one folder above
+bug		sync failed to sync keybindings if keybindingsjson file doesnt exist
+bug		expand selection doesnt work in nested scss block after
+bug		search fields missing regex icon others
+bug		compact menu should not move up when space is small
+bug		splitting terminal causes terminal to show bad prompt
+bug		polish settings gui array of strings maxitems validation error message
+bug		vscode treedataprovider does not reload icons with same uri after they change on disk and a refresh call is made
+bug		word highlighting now mishandles underscores
+bug		debug toolbar position resetting
+bug		markdown preview no longer shows images with root relative path after update to
+bug		api to change view title doesnt work when view is a single view
+bug		failure message from variables request to debugger extension is not surfaced
+bug		suggestions triggered when the editor in in composition phase
+bug		debugging eh opens largets with mankala contents and loads mock debug
+bug		web cannot open images in selfhost anymore
+bug		editor font ligatures setting missing comment and not displayed as boolean
+bug		not expected  input when using chinese input method
+bug		bad state while resolving keybindings conflicts
+bug		quit debug when excuting stepin continuously
+bug		web firefox dropping a file onto itself navigates the page
+bug		image fails to show when file is being renamed
+bug		line breakpoint disappears once hit
+bug		pinch to zoom image editor doesnt work on safari
+bug		typo in symboliconcontstantforeground
+bug		sluggish performance while typing in editor
+bug		code lens using octicon cannot be triggered
+bug		debug  fix active line for columnfree breakpoints not be decorated correctly
+bug		vscodeworkspacefsremove and copy succeed unexpectedly
+bug		web simple file dialog acts up in firefox
+bug		dependson task not getting executed
+bug		add support for the css property textunderlineoffset
+bug		updating task name and detail dont autoupdate
+bug		web buttons in notification area are cropped off with enough space
+bug		open external terminal command should not show on web
+bug		setimmediate shim is incorrect
+bug		insiders cant build extension without vscodeproposeddts because vscodedts references it
+bug		debug console prompt cant be focused with mouse
+bug		hangs insider builds or crashes noninsider after running scripts in debug console
+bug		search tree blinks too much
+bug		web error not implemented iexthostdebugserviceacceptdebugsessioncustomevent
+bug		cannot rename compressed folders in explorer
+bug		web native dropdown on ipados looks verbose on ipados
+bug		panel size is not remembered correctly when panel is moved to the right
+bug		opening search results in editor should not create duplicate tabs if results are unchanged
+bug		explorer button is not same width anymore
+bug		make extension respect the windowopenfoldersinnewwindow setting
+bug		debug failure false expression script should not exist and not be open already
+bug		overflow menu bar shows  tooltip
+bug		navigationnumber causes err cannot read property title of undefined
+bug		web trusted domain dialog does not persist my choice
+bug		cmd  shift  left arrow in editor selects opposite direction
+bug		the setting editoroverviewrulerlanes has no effect
+bug		webview cannot load resource outside of protocol root if md source is an network share
+bug		immediate  in call stack view doesnt use spaa
+bug		codelens error actual command not found
+bug		empty terminal when task has reveal never
+bug		tabs tab size changes when no icon theme is enabled
+bug		relative paths to folders below codeworkspace not preserved on save
+bug		update font rendering is blurry linux windows
+bug		match highlighting in recently opened doesnt go away
+bug		activity bar icon focus indicator is hard to see probably should be independently themable
+bug		terminalintegratedwindowsenableconpty is not being respected
+bug		synced settings dont respect existing indentation amount or type
+bug		cli does not support chrome flags anymore
+bug		terminal link hover position is inconsistent with editor
+bug		stop forwarding port still forwards the port
+bug		terminal split line right click issue
+bug		cursor disappearing
+debug		compound prelaunchtask
+debug		option to disable breakpoint candidates inline
+debug		hide the debug  run buttons when not enabled
+debug		allow debuggers to add simple toggle checkboxes similar to breakpoint options
+debug		add an option to evaluate the selected text while debuggee
+debug		node breakpoints misplaced in source code
+debug		pickprocess dont work in archlinux
+debug		debug improve call stack uiux
+debug		sometimes does not initialize the exception breakpoint
+debug		support time travel debugging in javascript
+debug		put debug bar in status bar instead
+debug		weird things happen when i debug  prelaunchtask
+debug		investigate into using language service support for scope resolution
+debug		extension debug cannot set breakpoint at location
+debug		debug console missing output when using new node da
+debug		debugger takes no changes any more
+debug		debug activity bar decoration when debugging
+debug		add x button to remove a breakpoint
+debug		use the editor font size for the breakpoint widget
+debug		vscode not responding on stop of debugging or running azure functions
+debug		allow debuggers to support stepback without reversecontinue
+debug		wrong position of the selector in the debugging console
+debug		runinterminal debug request doesnt need escape the double quotes inside the argument
+debug		node debugging doesnt work in web ui
+debug		make breakpoint candidates less noisy
+debug		unified debug console does not have a control to select a session for evaluation
+debug		problems for data breakpoint
+*not-reproducible		markdown relative image is not shown in preview on windows
+*not-reproducible		new aswebviewuri api breaks old existing behavior
+*not-reproducible		safari cannot type in setting editor after switching back to it
+*not-reproducible		missing symlink icons on centos
+*not-reproducible		tables in markdown preview not rendered correctly
+*not-reproducible		typescript language service died  times
+*as-designed		regex
+*as-designed		constant is already declared in an unrelated folder
+*as-designed		javascriptsuggestnames still working in object literal when disabled
+*as-designed		javascriptsuggestincludeautomaticoptionalchaincompletions isnt working
+*as-designed		php fqcn does not match in fuzzy finder
+*as-designed		change all occurrences messes up after positioning with mouse
+*as-designed		allow multiple formatters to be specified in order for editordefaultformatter
+*as-designed		test web some shortcut doesnt work in terminal
+*as-designed		setting windowmenubarvisibility hidden causes the title bar to not respect zoom
+*as-designed		cannot open any file or path in web vscode by run yarn web in docker
+*as-designed		explorer seems not case sensitive
+*as-designed		selection highlight in scroll bar broken for cc
+*as-designed		left column window view change
+*as-designed		default light theme has dark color side bar
+*as-designed		autosave toggle should tell me weather is on off
+*as-designed		ui integrated terminal add a clear terminal buttonicon next to kill terminal
+*as-designed		snippets not working in specific scope
+*as-designed		call hierarchy view should show both incoming  outgoing at the same time
+*as-designed		html no suggestion for closing tag
+*as-designed		notifications support lcd rendering
+*as-designed		git inconsistent colors between current changes and incoming changes
+*as-designed		cannot distinguish where focus is when terminalintegratedcursorstyle is not block
+*as-designed		inconsistent key binding for go back command workbenchactionnavigateback between vs on linux vs on windows vs  on windows
+*out-of-scope		missing crossoriginusecredentials to manifestjson link for basic auth
+*out-of-scope		dynamic custom data loading
+*out-of-scope		git merge shortcuts disappear in some conditions
+*out-of-scope		feature request
+*out-of-scope		blurry font after terminal resize
+*out-of-scope		ts status can still show in status bar when going from ts file  output panel  settings editor
+*out-of-scope		adding spaces
+*out-of-scope		export  text from terminal
+*out-of-scope		problems view filter input should prioritize showing problem count when the input becomes narrow
+*out-of-scope		search result in editor tab configure what to show
+*out-of-scope		download insiders versions more easily
+*out-of-scope		zsh segmentation fault core dumped  when running a python file with only import statements
+*out-of-scope		mfa support for azure data warehouse
+javascript		attempting to delete nodemodules dir in vscode workspace fails eperm operation not permitted unlink
+javascript		insiders intellisense will not load
+javascript		intellisense shows blank
+javascript		suggestcompletefunctioncalls without parameters signature
+javascript		mark typescript class or function as deprecated with jsdoc
+javascript		go to definition wont work because of tsserver failure
+javascript		add all missing imports inserts blank lines between imports
+javascript		typescript language service died macos
+*question		how do i set for hiding files without a dot
+*question		candoes vscode handle system shutdown correctly
+*question		intellisense suggests invalid path when defined baseurl in jsconfigtsconfig
+*question		visual studio code always add folder to the current workspace
+*question		jupyter and image save in code
+*question		it is so confusing what is development story on windows on arm for arm architecture
+*question		add a oneclick cancel syntax highlighting and auto completion
+*question		file browser tree view
+*question		disable autocomplete words
+*question		how to add the custom when clause in vscode
+*question		in split view mode gotodefinition opens file in new tab rather than navigating already opened tab in other view pane
+*question		strange debugger work
+*question		intendation based folding in markdown language mode
+*question		terminal optiondelete doesnt delete previous word on macos
+*question		vscode force opening window on error
+*question		nice theme what is the name
+*question		filesencoding why theres no auto option
+*question		files exclude is not convenient
+*question		cant find csv file
+*question		vertical select with middle click is not working
+*question		error while building tasksjson
+*question		syntax highlighting for not obviously defined variables
+*question		find all references and interface implementation
+*question		show fixes hard codes the keyboard shortcut
+*question		output
+*question		devtools for webview activeframe does not show elements
+*question		emmet doesnt work
+*question		enable extension according to file type
+*question		ibm blockchain platform issue
+*question		shortcut key conflict
+*question		does it support blackbox
+*question		improve tdd ability
+api		expose dialog title in extensions api
+api		add custom quickpick highlighting
+api		exposing api for the peek diff window
+api		support named pipe  unix domain sockets as debug adapter entry point
+api		stabilize loglevel api
+api		support ondidexecutecommand
+api		expose markdownenginecurrentdocument to contributed extensions
+api		allow grouping statusbaritem
+api		api text search provider only returns one result
+api		expose quickpickmatchonlabel publicly
+api		support programatically terminating a debug session
+api		api request add kind to texteditorvisiblerangeschangeevent
+api		make registerdiffinformationcommand public
+polish		webview links show status bar hover
+polish		ipados cannot move panes around activity bar panel
+polish		ipados cannot resize sidebar via touch
+polish		misleading error when referencing a missing problem matcher
+polish		tunnels view ux polish needed on presented data
+icons-product		editor icons svg alignment and rendering issues
+icons-product		automatic scrolling icon not intuitive
+icons-product		minimal icon theme should use icon font
+accessibility		accessibility ctrlright in accessibility mode cursorwordaccessibilityright should jump to the beginning of next word rather than the end
+accessibility		newest version clobbers window manager keyboard shortcuts
+accessibility		compact explorer tree nodes dont narrate expanded and collapsed
+accessibility		make ctrlright in accessibility mode to jump to beginning of the word
+accessibility		git status add and modified decorations in minimap too narrow on high contrast theme
+accessibility		web unable to open  focus compact menu on macos
+editor-autoindent		moving line down breaks else block indentation moved from go repo
+editor-autoindent		javascript code blocks auto indent improperly when apostrophesquotation marks are present
+editor-autoindent		should pasting newline with autoindent move the cursor  inconsistencies when pasting newlines
+editor-autoindent		when pasting formatting indents way to the right
+file-explorer		readonly suffix no longer added to tab labels of files served by readonly filesystem
+file-explorer		explorer cant show two directories whose names have the same letters but differ in capitalization
+file-explorer		multiselect in the explorer delete deselected folder instead of selected ones
+error-list		implement filtering by marker type
+error-list		allow textbased exclusion of problems
+error-list		include link to clear filters in problems view empty message
+error-list		problemsshowcurrentinstatus should not require cursor to be inside error
+settings-sync		sync stop requesting when a  is received
+settings-sync		sync turning sync back on asks for what to sync again
+settings-sync		sync failed to sync keybindings if keybindingsjson file doesnt exist
+settings-sync		settings sync concept
+*english-please		fultter 语法提示失效
+*english-please		列模式下选中 n 行时无法粘贴 n 行到每一行
+*english-please		反馈问题提交
+*english-please		deepin终端消失
+*english-please		打开任意页面在向下或者向上拖动滚轮时画面出现水波状的刷新延迟
+*english-please		un smiley dans la barre détat
+*english-please		编辑器过一段时间就会出现格式或无效和eslint无效
+*english-please		默认快捷键可以删除但是却不能够增加
+*english-please		终端显示空白不能输入
+*english-please		拓展 插件无法下载安装
+*english-please		problème selectioncurseur multiple
+*english-please		typescript and javascript language features vscodetypescriptlanguagefeatures
+*english-please		桌面开启了自动隐藏任务栏之后以及最大化之后点击最大化无法取消最大化
+*dev-question		somescripts not working in vscode webview
+*dev-question		yarn watch doesnt start
+*dev-question		javascript heap out of memory when trying to pack  on linux arm fedora
+*dev-question		using typescriptlanguagefeatures extension and plugins
+*dev-question		using userdatadir in launchjson can not connect to marketplace
+*dev-question		wrong node version for creating extension
+*dev-question		can we registerunregister keybinding dynamicly
+grammar		add cjs to known javascript file extensions
+grammar		c define highlighting can be wrong
+grammar		append highlight end with for vb syntax
+grammar		php syntax highlighting of sql query strings missing when concatenated
+grammar		hlsl numeric syntax highlight wrongincomplete
+grammar		wrong highlighting in php in js in html attributes in php file
+testplan-item		test debug icons  color tokens
+testplan-item		test codeactiondisabled
+testplan-item		test terminal minimum contrast ratio
+testplan-item		test allow to edit the left hand side of a diff editor if possible
+testplan-item		test extensionkind can be an array
+testplan-item		test enhancements in problems view
+testplan-item		test settings sync improvements
+testplan-item		test git status minimap decorations
+testplan-item		test semantic token theming
+testplan-item		test sanity check firefox enhancement
+testplan-item		test code navigation
+testplan-item		test allow ctrls to save a dirty file of a peek editor when it has focus
+testplan-item		test custom dropdown picker in desktop  web
+testplan-item		test terminal webgl renderer
+testplan-item		test finalization of envasexternaluri api
+testplan-item		web cross browser testing
