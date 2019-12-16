@@ -4,6 +4,7 @@ import sys
 <<label, Nei, word>, 1>
 输出：
 <<label>, <0, Nei, word, numofword>>
+统计标签为label的title中 单词word的出现次数
 """
 Hash = dict()
 for row in sys.stdin:
