@@ -38,8 +38,9 @@ We removed some data whose label appeared less than 10 times. Then we got 1935 t
 * Add ${Hadoop home}/hadoop/bin to your environment path.
 * Modify the path in MapReduce_code/train.sh、predict.sh
 * `cd MapReduce_code`
-* `sh run.sh`
+* `sh run.sh` 
 * The result can be seen in `final_result.txt`
+* Attention：you may need to create the sh file by yourself  due to the permission problem 
 
 
 
