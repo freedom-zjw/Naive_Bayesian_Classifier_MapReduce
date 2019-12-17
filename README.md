@@ -48,6 +48,6 @@ We removed some data whose label appeared less than 10 times. Then we got 1935 t
 
 | Evaluation method | Result |
 | :---------------: | :----: |
-|  rank1-Accuracy   | 31.8%  |
-|  rank5-Accuracy   | 73.6%  |
+|  rank1-Accuracy   | 32.35% |
+|  rank5-Accuracy   | 73.65% |
 
